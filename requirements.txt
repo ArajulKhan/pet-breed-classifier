@@ -1,0 +1,6 @@
+# Runtime dependencies. Use tensorflow-cpu for smaller installs / servers without GPU.
+streamlit>=1.40,<2
+tensorflow>=2.20,<3
+numpy>=1.26
+pandas>=2.0
+pillow>=10.0
