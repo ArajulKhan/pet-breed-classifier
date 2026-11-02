@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.python-version
+
+# Tooling / caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Streamlit secrets (never commit!)
+.streamlit/secrets.toml
+
+# Environment files
+.env
+.env.*
+
+# Large model files: tracked via Git LFS (see .gitattributes) or downloaded
+# at runtime. Uncomment the next line if you host the model elsewhere instead.
+# models/*.keras
+models/*.tmp
+
+# Datasets and temporary data
+data/
+*.tar.gz
