@@ -36,9 +36,6 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Open <http://localhost:8501>.
-
-
 ## Getting the model file onto GitHub
 
 The model is ~165 MB and **GitHub blocks files over 100 MB**, so:
